@@ -12,6 +12,7 @@ public class Main {
         System.out.println(p2.toString());
 
         Calciatore c = new Calciatore("Ala destra",7,340,"Thomas",2006,"Maschio");
+        System.out.println(c.toString());
 
     }
 }
