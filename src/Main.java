@@ -16,6 +16,8 @@ public class Main {
         c.getRuolo();
         c.getnMaglia();
         c.getnGoal();
+        c.setRuolo("Ala sinistra");
+        c.setnGoal(15);
         System.out.println(c.toString());
 
     }
