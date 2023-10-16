@@ -25,6 +25,16 @@ public class Calciatore extends Persona {
     public void setnGoal(int newNGoal){
         this.nGoal = newNGoal;
     }
+    public Object clone(){
+        //Cloniamo attributi della calsse Persona utilizzando metodo clone di Persona;
+        //ATTENZIONE: Calciatore è anche una Persona (is a).
+        Calciatore c1 = (Calciatore) super.clone();
+        //Duplico/clono attributi di Calciatore.
+        c1.ruolo = this.ruolo;
+        c1.nMaglia = this.nMaglia;
+        c1.nGoal = this.nGoal;
+        return c1;
+    }
     public String toString(){
         String rit = "";
         rit += super.toString();
