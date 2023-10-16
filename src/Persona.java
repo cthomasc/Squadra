@@ -9,10 +9,11 @@ public class Persona {
         this.sesso = sesso;
     }
     public String toString(){
-        String rit = "";
+        String rit = "{";
         rit += "Nome: " + this.nome;
         rit+= "\nAnno di nascita: " + this.annoNascita;
         rit += "\nGenere: " + this.sesso;
+        rit += "}";
         return rit;
     }
 
