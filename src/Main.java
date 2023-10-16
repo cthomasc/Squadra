@@ -6,6 +6,8 @@ public class Main {
         p.getAnnoNascita();
         p.getSesso();
         p.setSesso("Trans");
-        p.clone();
+
+        Persona p2 = (Persona) p.clone();
+        System.out.println(p2.toString());
     }
 }
