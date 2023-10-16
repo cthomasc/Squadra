@@ -10,8 +10,9 @@ public class Main {
         System.out.println("***********************");
         Persona p2 = (Persona) p.clone();
         System.out.println(p2.toString());
+        System.out.println("***********************");
 
-        Calciatore c = new Calciatore("Ala destra",7,340,"Thomas",2006,"Maschio");
+        Calciatore c = new Calciatore("Ala destra",7,12,"Thomas",2006,"Maschio");
         c.getRuolo();
         c.getnMaglia();
         c.getnGoal();
