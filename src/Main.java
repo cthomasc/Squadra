@@ -13,7 +13,7 @@ public class Main {
         System.out.println(p2.toString());
         System.out.println("***********************");
 
-        Calciatore c = new Calciatore("Ala destra",7,12,"Thomas",2006,"Maschio");
+        Calciatore c = new Calciatore("Ala destra",7,12,"Thomas",2006,"Maschio",43);
         c.getRuolo();
         c.getnMaglia();
         c.getnGoal();
