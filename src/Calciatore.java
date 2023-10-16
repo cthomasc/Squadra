@@ -11,7 +11,7 @@ public class Calciatore extends Persona {
         this.nGoal = nGoal;
     }
     public Calciatore (Calciatore calciatore){
-        super(Calciatore);
+        super(calciatore);
         this.nGoal = calciatore.nGoal;
         this.ruolo = calciatore.ruolo;
         this.nMaglia = calciatore.nMaglia;
