@@ -38,6 +38,7 @@ public class Persona {
         rit += "Nome: " + this.nome;
         rit+= "\nAnno di nascita: " + this.annoNascita;
         rit += "\nGenere: " + this.sesso;
+        rit += "\nNumero di scarpe: " + this.nScarpe;
         rit += "}";
         return rit;
     }
