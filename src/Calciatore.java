@@ -19,10 +19,16 @@ public class Calciatore extends Persona {
     public int getnGoal(){
         return this.nGoal;
     }
+    public void setRuolo(String newRuolo){
+        this.ruolo = newRuolo;
+    }
+    public void setnGoal(int newNGoal){
+        this.nGoal = newNGoal;
+    }
     public String toString(){
         String rit = "";
         rit += super.toString();
-        rit += "\n{Ruolo: " + this.ruolo;
+        rit += "\nRuolo: " + this.ruolo;
         rit += "\nNumero maglia: " + this.nMaglia;
         rit += "\nNumero di goal: " + this.nGoal;
         rit += "}";
