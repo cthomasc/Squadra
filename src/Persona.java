@@ -2,11 +2,13 @@ public class Persona {
     private String nome;
     private int annoNascita;
     private String sesso;
+    private int nScarpe;
 
-    public Persona (String nome, int annoNascita, String sesso){
+    public Persona (String nome, int annoNascita, String sesso, int nScarpe){
         this.nome = nome;
         this.annoNascita = annoNascita;
         this.sesso = sesso;
+        this.nScarpe = nScarpe;
     }
     public Persona (Persona persona){
         this.nome = persona.nome;
@@ -25,8 +27,11 @@ public class Persona {
     public void setSesso(String newSesso){
         this.sesso = newSesso;
     }
+    public int getnScarpe(){
+        return this.nScarpe;
+    }
     public Object clone(){
-        return new Persona(this.nome,this.annoNascita,this.sesso);
+        return new Persona(this.nome,this.annoNascita,this.sesso,this.nScarpe);
     }
     public String toString(){
         String rit = "{";
